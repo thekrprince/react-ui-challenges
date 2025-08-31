@@ -19,6 +19,12 @@
   width: 500px;
 }
 
+.addBtn {
+  padding: 0.25rem 0.5rem;
+  font-size: medium;
+  font-weight: 800;
+}
+
 .bar {
   background-color: green;
   height: inherit;

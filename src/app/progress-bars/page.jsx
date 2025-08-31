@@ -9,7 +9,7 @@ const Page = () => {
     return (
         <div className={styles.main}>
             <div>
-                <button onClick={() => setBars(bars + 1)}>Add</button>
+                <button className={styles.addBtn} onClick={() => setBars(bars + 1)}>Add</button>
             </div>
             <div className={styles.bars}>{Array.from({ length: bars }).map((_, idx) => <ProgressBar key={idx} />)}</div>
         </div>
