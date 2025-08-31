@@ -2,8 +2,6 @@
 
 A collection of **React UI practice challenges** designed to sharpen frontend skills and prepare for **frontend interviews**.
 
----
-
 ## 🚀 What’s Inside
 
 - 📂 Multiple **self-contained React challenges** which are important for the interviews
@@ -12,13 +10,9 @@ A collection of **React UI practice challenges** designed to sharpen frontend sk
 - 🧩 Covers component design, props/state management, conditional rendering, hooks, and performance considerations
 - 📝 Includes solutions + explanations
 
----
-
 ## Links
 
 - Deployed link - <https://react-ui-challenges-chi.vercel.app/>
-
----
 
 ## Guide to setup this project locally
 
