@@ -1,0 +1,23 @@
+.header {
+  height: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 5rem;
+}
+
+.headerText {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.headerText:hover {
+  opacity: 90%;
+  cursor: pointer;
+}
+
+.rightSide {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
