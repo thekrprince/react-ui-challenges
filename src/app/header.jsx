@@ -1,13 +1,14 @@
 "use client";
+import Link from "next/link";
 import styles from "./header.module.css";
 
 const Header = () => {
   return (
     <div className={styles.header}>
       <div className={styles.leftSide}>
-        <div className={styles.headerText}>
+        <Link href="/" className={styles.headerText}>
           <span>React UI Challenges</span>
-        </div>
+        </Link>
       </div>
       <div className={styles.rightSide}>
         <div>
