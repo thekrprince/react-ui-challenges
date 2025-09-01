@@ -1,7 +1,8 @@
+"use client";
 import { Geist, Geist_Mono } from "next/font/google";
-// import Header from "./header";
 import "./globals.css";
-import Header from "./header";
+import Header from "../components/header";
+import { useState } from "react";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -13,12 +14,8 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata = {
-  title: "UI Challenges",
-  description: "Mini react apps library for frontend interview practice",
-};
-
 export default function RootLayout({ children }) {
+  const [] = useState();
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>

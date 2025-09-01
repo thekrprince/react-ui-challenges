@@ -1,6 +1,11 @@
 import styles from "./page.module.css";
 import Link from "next/link";
 
+export const metadata = {
+  title: "UI Challenges",
+  description: "Mini react apps library for frontend interview practice",
+};
+
 export default function Home() {
   return (
     <div className={styles.page}>
