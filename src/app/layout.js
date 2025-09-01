@@ -15,11 +15,11 @@ const geistMono = Geist_Mono({
 });
 
 export default function RootLayout({ children }) {
-  const [] = useState();
+  const [theme, setTheme] = useState("dark");
   return (
-    <html lang="en">
+    <html lang="en" className={theme}>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        <Header />
+        <Header theme={theme} setTheme={setTheme} />
         {children}
       </body>
     </html>
