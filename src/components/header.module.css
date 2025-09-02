@@ -4,6 +4,11 @@
   justify-content: space-between;
   align-items: center;
   padding: 2rem 5rem;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 2px 0px;
+}
+
+.dark {
+  box-shadow: rgba(160, 160, 168, 0.1) 0px 2px 0px;
 }
 
 .headerText {
@@ -23,5 +28,12 @@
 
   div {
     cursor: pointer;
+    width: 30px;
+    height: 30px;
+  }
+
+  a {
+    width: 26px;
+    height: 26px;
   }
 }
