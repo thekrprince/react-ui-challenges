@@ -14,6 +14,12 @@ A collection of **React UI practice challenges** designed to sharpen frontend sk
 
 - Deployed link - <https://react-ui-challenges-chi.vercel.app/>
 
+## Tech stack used
+
+- NextJS
+- CSS Modules
+- React Icons
+
 ## Guide to setup this project locally
 
 First, run the development server:
