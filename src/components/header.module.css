@@ -1,5 +1,5 @@
 .header {
-  height: 2rem;
+  height: 4rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -24,16 +24,16 @@
 .rightSide {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 3rem;
 
-  div {
+  div,
+  a {
     cursor: pointer;
-    width: 30px;
-    height: 30px;
+    border-radius: 50%;
   }
 
-  a {
-    width: 26px;
-    height: 26px;
+  div:hover,
+  a:hover {
+    opacity: 90%;
   }
 }
