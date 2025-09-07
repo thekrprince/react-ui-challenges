@@ -22,17 +22,11 @@
 }
 
 .rightSide {
-  display: flex;
-  align-items: center;
-  gap: 3rem;
-
-  div,
   a {
     cursor: pointer;
     border-radius: 50%;
   }
 
-  div:hover,
   a:hover {
     opacity: 90%;
   }
