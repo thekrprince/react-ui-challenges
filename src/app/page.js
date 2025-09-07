@@ -12,6 +12,7 @@ export default function Home() {
       <h1>UI Challenges</h1>
       <Link href="/accordion">Accordion</Link>
       <Link href="/progress-bars">Progress Bars</Link>
+      <Link href="/modal">Modal</Link>
     </div>
   );
 }
