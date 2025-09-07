@@ -13,16 +13,18 @@
   row-gap: 1rem;
 }
 
-.barContainer {
-  height: 1rem;
-  background-color: #ccc;
-  width: 500px;
-}
-
 .addBtn {
   padding: 0.25rem 0.5rem;
   font-size: medium;
   font-weight: 800;
+}
+
+/* Progress Bar styling */
+
+.barContainer {
+  height: 1rem;
+  background-color: #ccc;
+  width: 500px;
 }
 
 .bar {
