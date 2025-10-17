@@ -10,8 +10,7 @@ const Modal = (props) => {
     }
 
     return createPortal(
-        <>
-            <div className={styles.overlay} />
+        <div className={styles.overlay}>
             <div className={styles.modal}>
                 <h1>{title}</h1>
                 <div>{children}</div>
@@ -19,7 +18,7 @@ const Modal = (props) => {
                     <button onClick={onClose}>Close</button>
                 </div>
             </div>
-        </>
+        </div>
         , document.body);
 };
 
