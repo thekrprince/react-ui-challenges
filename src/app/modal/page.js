@@ -8,7 +8,7 @@ const App = () => {
 
   return (
     <section className={styles.main}>
-      <button onClick={() => setShowModal(true)}>Show Modal</button>
+      <button onClick={() => setShowModal(true)} className={styles.btn}>Show Modal</button>
       <Modal title="Modal Dialog" open={showModal} onClose={() => setShowModal(false)}>
         One morning, when Gregor Samsa woke from troubled dreams, he found
         himself transformed in his bed into a horrible vermin. He lay on his
