@@ -13,6 +13,7 @@ export default function Home() {
       <Link href="/accordion">Accordion</Link>
       <Link href="/progress-bars">Progress Bars</Link>
       <Link href="/modal">Modal</Link>
+      <Link href="/calculator">Calculator</Link>
     </div>
   );
 }
