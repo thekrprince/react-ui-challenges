@@ -6,12 +6,14 @@
   --button-primary-hover: #383838;
   --button-secondary-hover: #f2f2f2;
 
-  display: grid;
-  align-items: center;
-  justify-items: center;
-  padding: 50px;
-  gap: 16px;
+  /* display: grid; */
+  /* grid-template-rows: 20px 1fr 20px; */
+  /* align-items: center; */
+  /* justify-items: center; */
+  /* padding: 50px; */
+  /* gap: 16px; */
   font-family: var(--font-geist-sans);
+  min-height: 100vh;
 }
 
 @media (prefers-color-scheme: dark) {
