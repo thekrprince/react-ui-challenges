@@ -1,0 +1,1 @@
+export const ROUTES = [{ title: "Accordion", path: "/accordion" }, { title: "Progress Bars", path: "/progress-bars" }, { title: "Modal", path: "/modal" }, { title: "Calculator", path: "/calculator" }];
