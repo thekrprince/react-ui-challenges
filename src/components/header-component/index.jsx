@@ -1,7 +1,7 @@
 // This header is used inside the small apps
 "use client";
 import Link from "next/link";
-import { FaBackward, FaGithub } from "react-icons/fa";
+import { FaAngleLeft, FaGithub } from "react-icons/fa";
 import styles from "./index.module.css";
 
 const Header = (props) => {
@@ -9,7 +9,7 @@ const Header = (props) => {
   return (
     <div className={styles.header}>
       <Link href="/">
-        <FaBackward size="1.7rem" />
+        <FaAngleLeft size="1.7rem" />
       </Link>
       <h1>{title}</h1>
       <div className={styles.rightSide}>
