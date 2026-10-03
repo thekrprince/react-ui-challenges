@@ -1,0 +1,33 @@
+.header {
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 5rem;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 2px 0px;
+}
+
+.dark {
+  box-shadow: rgba(160, 160, 168, 0.1) 0px 2px 0px;
+}
+
+.headerText {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.headerText:hover {
+  opacity: 90%;
+  cursor: pointer;
+}
+
+.rightSide {
+  a {
+    cursor: pointer;
+    border-radius: 50%;
+  }
+
+  a:hover {
+    opacity: 90%;
+  }
+}

@@ -2,18 +2,22 @@
 import { useState } from "react";
 import styles from "./page.module.css";
 import ProgressBar from "./progress-bar";
+import Header from "@/components/header-component";
 
 const Page = () => {
-    const [bars, setBars] = useState(0);
-    
-    return (
-        <div className={styles.main}>
-            <div>
-                <button className={styles.addBtn} onClick={() => setBars(bars + 1)}>Add</button>
-            </div>
-            <div className={styles.bars}>{Array.from({ length: bars }).map((_, idx) => <ProgressBar key={idx} />)}</div>
+  const [bars, setBars] = useState(0);
+
+  return (
+    <>
+      <Header title="Progress Bar" />
+      <div className={styles.main}>
+        <div>
+          <button className={styles.addBtn} onClick={() => setBars(bars + 1)}>Add</button>
         </div>
-    );
+        <div className={styles.bars}>{Array.from({ length: bars }).map((_, idx) => <ProgressBar key={idx} />)}</div>
+      </div>
+    </>
+  );
 };
 
 export default Page;
